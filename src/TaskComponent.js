@@ -4,7 +4,8 @@ class TaskComponent extends Component {
    render () {
      return (
        <div>
-         <h1>{this.props.task}</h1>
+         <h1>{this.props.todo[0]}</h1>
+         <h1>{this.props.todo[1]}</h1>
        </div>
      )
    }

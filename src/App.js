@@ -6,24 +6,18 @@ class App extends Component {
    constructor(props){
     super(props);
     this.state = {
-      tasks:['walk the dog', 'finish homework', 'empty the trunk']
+      tasks:['walk the dog', 'finish homework']
     };
    };
    
-    render () {
-      return (
-        <div>
-          
-          {this.state.tasks.map((currTask) =>{
-           return  <TaskComponent task = {currTask} />
-          })};
-          
-        </div>
-      )
-    }
- 
- }
- 
+   render () {
+
+    return (
+      
+      <TaskComponent todo = {this.state.tasks} />
+    )
+  }
+};
 
 
 export default App;
