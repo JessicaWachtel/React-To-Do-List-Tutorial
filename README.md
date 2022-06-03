@@ -48,3 +48,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 An intro to [NPM Scripts is here](https://medium.com/@mariokandut/what-are-npm-scripts-cde15d275a9f). The docs are located [here](https://docs.npmjs.com/cli/v8/using-npm/scripts).
 
 # This project is set up with Create React App
+The React Docs give a pretty good explaination as to why Create React App is a great tool for setting up a React App in a learning environment. https://reactjs.org/docs/create-a-new-react-app.html#:~:text=Flexible%20Toolchains.-,Create%20React%20App,-Create%20React%20App
