@@ -1,8 +1,14 @@
-# Getting Started
+# Dev Environment Set Up
 
 In order to propertly work with this repo you will need the following installed on your computer:
 
 [Node](https://nodejs.org/en/), [Git](http://git-scm.com/download/mac), [Create React App](https://www.npmjs.com/package/create-react-app)
+
+I use VS Code as my IDE.
+
+# Getting Started with GitHub
+
+For those of you unfamiliar with GitHub, here is a helpful [link] (https://docs.github.com/en/get-started/quickstart) on getting started. Hello World, Setting Up Git, and Fork a Repo are most relevant to this project. 
 
 # Getting Started with `This Repo`
 
@@ -37,8 +43,8 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-## Learn More about NPM Scripts and the Package JSON
+# Learn More about NPM Scripts and the Package JSON
 
-An intro to [NPM Scripts is here](https://medium.com/@mariokandut/what-are-npm-scripts-cde15d275a9f). The docs are located [here](https://docs.npmjs.com/cli/v8/using-npm/scripts).\
+An intro to [NPM Scripts is here](https://medium.com/@mariokandut/what-are-npm-scripts-cde15d275a9f). The docs are located [here](https://docs.npmjs.com/cli/v8/using-npm/scripts).
 
-
+# This project is set up with Create React App
