@@ -13,18 +13,15 @@ class App extends Component {
     };
 
     this.handleChange = this.handleChange.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
+   
    };
 
    //track changes in the text bar
 
-   handleChange(event){
+   handleChange(event) {
     this.setState({text: event.target.value});
-   };
-  
-   handleSubmit(){
-    this.setState({tasks:[...this.state.tasks, this.state.text]})
-   }
+  }
+   
   
    
    render () {
@@ -33,7 +30,6 @@ class App extends Component {
       <div>
       <SubmitComponent
       handleChange = {this.handleChange}
-      handleSubmit = {this.handleSubmit}
       text = {this.state.text}/>
       <TaskComponent todo = {this.state.tasks} />
       </div>
