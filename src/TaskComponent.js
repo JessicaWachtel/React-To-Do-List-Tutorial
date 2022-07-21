@@ -4,12 +4,12 @@ class TaskComponent extends Component {
    render () {
      return (
        <div>
-         
-         {/* <h1>{this.props.todo[0]}</h1> 
-         <h1>{this.props.todo[1]}</h1> */}
+       <span>{this.props.task}     </span>  
+       <button id = {this.props.id} onClick = {() => this.props.handleDelete(this.props.id)}>Delete</button>
+       
        </div>
      )
-   };
+   }
 
 };
 
