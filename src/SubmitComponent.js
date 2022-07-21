@@ -10,7 +10,7 @@ class SubmitComponent extends Component {
        </div>
      )
    };
-
+// test
 };
 
 export default SubmitComponent;
