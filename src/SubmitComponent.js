@@ -5,6 +5,7 @@ class SubmitComponent extends Component {
      return (
        <div>
          <input placeholder = "enter task" type="text" onChange = {this.props.handleChange} /> 
+         <button onClick = {this.props.handleSubmit}>Submit</button>
            <h1>{this.props.text}</h1>  
        </div>
      )
